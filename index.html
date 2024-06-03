@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    
+
+    <section>
+
+        <!--form voor invoer naam-->
+        <form>
+            <label>Hoe heet je plankton?</label>
+            <input type="text" class="naaminput">
+            <button type="submit" id="naamButton" class="naambutton">Start</button>
+        </form>
+        <h1>naam van je plankton</h1>
+    </section>
+
+
+              <!--foto tamagotchi diertje-->
+              <img src="./assets/Plankton_normaal.png" alt="plankton">
+            </article>>
+        </section>
+
+            <!--buttons-->
+            <section class="pokeballknoppen">
+                <button id="voedselButton">Feed</button>
+                <button id="trainButton">Train</button>
+                <button id="aaiButton">Pet</button>
+            </section>
+
+              <!--levens-->
+                     <section class="progressbar">
+                        <article id="hongerdiv">
+                            <img src="./assets/hongericon.png" id="hongericon" alt="Honger">
+                            <progress id="hongerWaarde" max="100" value="50"></progress>
+                        </article>
+                        <article id="traindiv">
+                            <img src="./assets/PixelBarbell.png" id="trainicon" alt="train">
+                            <progress id="trainWaarde" max="100" value="50"></progress>
+                        </article>
+                        <article id="aaidiv">
+                            <img src="./assets/PixelHart.webp" id="aaiicon" alt="aai">
+                            <progress id="aaiWaarde" max="100" value="50"></progress>
+                        </article>
+                    </section>
+
+                       <!--restart button en h2 voor tamagotchi dood-->
+            <section>
+                <h2></h2>
+                </section>
+    
+                <!--Bij klikken link wordt je doorverwezen naar dezelfde pagina aka de pagina wordt ververst-->
+                <section class="verberg" id="restartButtonDiv">
+                    <button id="restartButton" onclick="window.location.href=window.location.href">Restart</button>
+                </section>
+
+
+<script src="./script.js"></script>
+</body>
+</html>
